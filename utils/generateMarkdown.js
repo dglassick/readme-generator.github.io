@@ -2,16 +2,19 @@ function generateMarkdown(data) {
     return `
   # ${data.title}
 
-  ##Project designer ${data.name}
+  ##Project designer 
+  ${data.name}
 
   
   ##Profile Image
 
   ![github-small](${data.avatar_url})
 
-  ### User Email Address: ${data.email}
+  ### User Email Address: 
+  ${data.email}
 
-  ##Description: ${data.description}
+  ##Description: 
+  ${data.description}
 
   ## Table of Contents 
   ${data.ToC}
