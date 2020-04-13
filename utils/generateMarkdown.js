@@ -6,6 +6,7 @@ function generateMarkdown(data) {
 
   
   ##Profile Image
+
   ![github-small](${data.avatar_url})
 
   ### User Email Address: ${data.email}
