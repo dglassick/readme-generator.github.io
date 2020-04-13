@@ -4,7 +4,9 @@ function generateMarkdown(data) {
 
   ##Project designer ${data.name}
 
-  (${data.avatar_url})
+  
+  ##Profile Image
+  ![github-small](${data.avatar_url})
 
   ### User Email Address: ${data.email}
 
