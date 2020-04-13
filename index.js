@@ -67,7 +67,9 @@ async function init(){
 
     // calling the github api
     const ghapi = await axios.get(`https://api.github.com/users/${username}`);
+    // sets the gihub api call equal to the data object.
     const {data} = ghapi;
+    // setting data allows the name and picture to be pushed into the generate markdown function below.
     const {name, avatar_url} = data;
     console.log(data)
 
